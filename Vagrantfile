@@ -42,7 +42,7 @@ Vagrant.configure(2) do |config|
     echo 'alias hs="/vagrant"' >> ~/.zshrc
 
     rm -rf .oh-my-zsh/custom
-    git clone git@github.com:grancalavera/custom-oh-my-zsh.git .oh-my-zsh/custom
+    git clone https://github.com/grancalavera/custom-oh-my-zsh.git .oh-my-zsh/custom
     source ~/.zshrc
 
     stack setup
